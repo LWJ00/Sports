@@ -32,6 +32,10 @@ public class MainActivity extends FragmentActivity implements TabHost.OnTabChang
         tabHost.setOnTabChangedListener(this);
         initTab();
 
+
+
+
+
     }
 
     private void initTab() {
