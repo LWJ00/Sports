@@ -1,0 +1,200 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hzuapp.team.sports.fragment.mainFrgment.SportsFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="456dp"
+       android:background="@color/colorPrimary">
+
+       <ImageView
+           android:layout_width="48dp"
+           android:layout_height="48dp"
+           android:src="@drawable/ic_walk"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/tv1"
+           android:layout_centerHorizontal="true"
+           android:paddingTop="16dp"
+           android:textSize="20sp"
+           android:textColor="@color/write"
+           android:text="运动"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/tv_today_total"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@id/tv1"
+           android:paddingTop="56dp"
+           android:textColor="@color/write"
+           android:textSize="56dp"
+           android:text="0.32"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/tv2"
+           android:paddingTop="8dp"
+           android:textColor="#ecedea"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@id/tv_today_total"
+           android:text="今日走路总里程（公里）"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/ll1"
+           android:layout_below="@id/tv2"
+           android:paddingTop="32dp"
+           android:paddingBottom="32dp"
+           android:paddingLeft="16dp"
+           android:paddingRight="16dp"
+           >
+
+           <ImageView
+               android:layout_width="24dp"
+               android:layout_height="24dp"
+               android:layout_marginRight="8dp"
+               android:src="@drawable/ic_step"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#ecedea"
+           android:text="今日步数："
+
+           />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/tv_today_walk"
+               android:paddingLeft="8dp"
+               android:paddingRight="32dp"
+               android:textSize="20sp"
+               android:textColor="@color/write"
+               android:text="520"
+
+               />
+
+           <View
+               android:layout_width="0.5dp"
+               android:layout_height="match_parent"
+               android:background="@color/divider"
+               android:layout_gravity="center_horizontal"/>
+
+           <ImageView
+               android:layout_width="24dp"
+               android:layout_height="24dp"
+               android:layout_marginLeft="16dp"
+               android:src="@drawable/ic_speed"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:paddingLeft="8dp"
+               android:paddingRight="8dp"
+               android:textColor="#ecedea"
+               android:text="速度："/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/tv_speed"
+               android:textSize="20sp"
+               android:textColor="@color/write"
+               android:text="5.25"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:id="@+id/ll2"
+           android:layout_below="@id/ll1"
+           android:paddingTop="32dp"
+           android:paddingBottom="32dp"
+           android:paddingLeft="16dp"
+           android:paddingRight="16dp"
+           >
+
+           <ImageView
+               android:layout_width="24dp"
+               android:layout_height="24dp"
+               android:layout_marginRight="8dp"
+               android:src="@drawable/ic_time"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="#ecedea"
+               android:text="用时："
+
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/tv_time"
+               android:paddingLeft="8dp"
+               android:paddingRight="16dp"
+               android:textSize="20sp"
+               android:textColor="@color/write"
+               android:text="00:00:00"
+
+               />
+
+           <View
+               android:layout_width="0.5dp"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:background="@color/divider"
+               />
+
+           <ImageView
+               android:layout_width="24dp"
+               android:layout_height="24dp"
+               android:layout_marginLeft="16dp"
+               android:src="@drawable/ic_cal"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:paddingLeft="8dp"
+               android:paddingRight="8dp"
+               android:textColor="#ecedea"
+               android:text="消耗热量："/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/tv_cla"
+               android:textSize="20sp"
+               android:textColor="@color/write"
+               android:text="11"/>
+
+
+       </LinearLayout>
+
+   </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/btn_start_sport"
+        android:layout_gravity="center_horizontal"
+        android:text="开始"
+        android:textColor="@color/write"
+        android:background="@drawable/start_sports_selector"/>
+
+
+</LinearLayout>

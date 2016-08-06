@@ -1,0 +1,31 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 270 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 482002 0 0
+ciMethod java/util/Collection iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/List iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 2049 1 77488 0 32
+ciMethod java/util/AbstractCollection <init> ()V 265 1 94151 0 0
+ciMethod java/util/ArrayList <init> ()V 2913 1 41209 0 64
+ciMethod java/util/ArrayList size ()I 1097 1 137 0 -1
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 1977 1 434240 0 0
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 1977 1 391614 0 128
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 641 1 103809 0 -1
+ciMethod java/util/ArrayList rangeCheck (I)V 1977 1 433616 0 0
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 4097 1 43380 0 192
+ciMethod java/util/ArrayList access$100 (Ljava/util/ArrayList;)I 3073 1 384 0 0
+ciMethod java/util/Collections unmodifiableList (Ljava/util/List;)Ljava/util/List; 4097 1 9151 0 0
+ciMethod java/util/Collections$UnmodifiableRandomAccessList <init> (Ljava/util/List;)V 4097 1 9153 0 0
+ciMethod java/util/Collections$UnmodifiableList <init> (Ljava/util/List;)V 4097 1 9153 0 0
+ciMethod java/util/Collections$UnmodifiableCollection <init> (Ljava/util/Collection;)V 4097 1 9948 0 0
+ciMethod java/util/Collections$UnmodifiableCollection iterator ()Ljava/util/Iterator; 2089 1 9674 0 640
+ciMethod java/util/TreeMap getFirstEntry ()Ljava/util/TreeMap$Entry; 10057 7953 1736 0 0
+ciMethod java/util/TreeMap successor (Ljava/util/TreeMap$Entry;)Ljava/util/TreeMap$Entry; 4097 1521 4280 0 0
+ciMethod java/util/TreeMap access$100 (Ljava/util/TreeMap;)I 1097 1 137 0 0
+ciMethodData java/lang/Object <init> ()V 2 482011 orig 144 152 11 161 107 0 0 0 0 136 4 3 20 0 0 0 0 168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 217 198 58 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/BitSet set (I)V 1249 1 10796 0 -1
+ciMethod java/util/BitSet get (I)Z 1281 1 11510 0 -1
+ciMethodData java/util/ArrayList add (Ljava/lang/Object;)Z 2 112484 orig 144 152 11 161 107 0 0 0 0 208 60 16 20 0 0 0 0 240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 113 184 13 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 15 0 4 0 1 0 64 0 0 0 255 255 255 255 0 0 0 0 2 0 7 0 0 0 0 0 data 8 0x70002 0x1b71a 0x1a0104 0x0 0x178c6c80 0x1a9 0x178c6d30 0xf oops 2
