@@ -17,7 +17,7 @@ public class WelcomeActivity extends Activity {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-            startActivity(new Intent(WelcomeActivity.this,MainActivity.class));
+            startActivity(new Intent(WelcomeActivity.this,LoginActivity.class));
             finish();
         }
     };
