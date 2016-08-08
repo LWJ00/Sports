@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/write">
+        android:background="@color/white">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -32,14 +32,15 @@
                 android:layout_centerHorizontal="true"
                 android:padding="16dp"
                 android:id="@+id/tv_user_name"
-                android:textColor="@color/write"
+                android:textColor="@color/white"
                 android:text="user_name"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_setting"
-                android:textColor="@color/write"
+                android:clickable="true"
+                android:textColor="@color/white"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="16dp"

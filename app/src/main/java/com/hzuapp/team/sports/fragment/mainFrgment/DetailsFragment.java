@@ -8,17 +8,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import com.hzuapp.team.sports.R;
-import com.hzuapp.team.sports.activity.MainActivity;
-import com.hzuapp.team.sports.utils.ConstanceUtils;
 import com.jude.rollviewpager.RollPagerView;
 import com.jude.rollviewpager.adapter.StaticPagerAdapter;
 import com.jude.rollviewpager.hintview.ColorPointHintView;
-import com.jude.rollviewpager.hintview.IconHintView;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,7 +26,14 @@ public class DetailsFragment extends Fragment {
 
     @Bind(R.id.roll_view_pager)
     RollPagerView rollViewPager;
-
+    @Bind(R.id.ll_Compare)
+    LinearLayout llCompare;
+    @Bind(R.id.ll_History)
+    LinearLayout llHistory;
+    @Bind(R.id.ll_Attend)
+    LinearLayout llAttend;
+    @Bind(R.id.ll_Absence)
+    LinearLayout llAbsence;
 
 
     public DetailsFragment() {
@@ -41,7 +47,6 @@ public class DetailsFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_details, container, false);
         ButterKnife.bind(this, view);
-
 
 
         //设置播放时间间隔(2s)
@@ -59,10 +64,24 @@ public class DetailsFragment extends Fragment {
          * 隐藏指示器
          * */
         //rollViewPager.setHintView(new IconHintView(getContext(), R.drawable.point_press, R.drawable.point_normal));
-        rollViewPager.setHintView(new ColorPointHintView(getContext(),Color.GREEN,Color.WHITE));
+        rollViewPager.setHintView(new ColorPointHintView(getContext(), Color.GREEN, Color.WHITE));
         //rollViewPager.setHintView(new TextHintView(this));
         //rollViewPager.setHintView(null);
         return view;
+    }
+
+    @OnClick({R.id.ll_Compare, R.id.ll_History, R.id.ll_Attend, R.id.ll_Absence})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.ll_Compare:
+                break;
+            case R.id.ll_History:
+                break;
+            case R.id.ll_Attend:
+                break;
+            case R.id.ll_Absence:
+                break;
+        }
     }
 
     private class TestNormalAdapter extends StaticPagerAdapter {
