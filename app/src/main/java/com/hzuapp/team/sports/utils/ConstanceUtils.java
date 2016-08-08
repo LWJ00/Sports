@@ -23,4 +23,8 @@ public class ConstanceUtils {
     public static Resources resources;  //资源列表
     public static String IP = "";
     public static String Pic="";
+
+    public static final String KEY_ACCOUNT = "sid";
+    public static final String KEY_PASSWORD = "password";
+    public static final String URL_LOGIN = "";
 }
