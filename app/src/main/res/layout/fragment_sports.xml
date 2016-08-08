@@ -21,7 +21,7 @@
            android:layout_centerHorizontal="true"
            android:paddingTop="16dp"
            android:textSize="20sp"
-           android:textColor="@color/write"
+           android:textColor="@color/white"
            android:text="运动"/>
 
        <TextView
@@ -31,7 +31,7 @@
            android:layout_centerHorizontal="true"
            android:layout_below="@id/tv1"
            android:paddingTop="56dp"
-           android:textColor="@color/write"
+           android:textColor="@color/white"
            android:textSize="56dp"
            android:text="0.32"/>
 
@@ -78,7 +78,7 @@
                android:paddingLeft="8dp"
                android:paddingRight="32dp"
                android:textSize="20sp"
-               android:textColor="@color/write"
+               android:textColor="@color/white"
                android:text="520"
 
                />
@@ -108,7 +108,7 @@
                android:layout_height="wrap_content"
                android:id="@+id/tv_speed"
                android:textSize="20sp"
-               android:textColor="@color/write"
+               android:textColor="@color/white"
                android:text="5.25"/>
 
 
@@ -147,7 +147,7 @@
                android:paddingLeft="8dp"
                android:paddingRight="16dp"
                android:textSize="20sp"
-               android:textColor="@color/write"
+               android:textColor="@color/white"
                android:text="00:00:00"
 
                />
@@ -178,7 +178,7 @@
                android:layout_height="wrap_content"
                android:id="@+id/tv_cla"
                android:textSize="20sp"
-               android:textColor="@color/write"
+               android:textColor="@color/white"
                android:text="11"/>
 
 
@@ -193,7 +193,7 @@
         android:id="@+id/btn_start_sport"
         android:layout_gravity="center_horizontal"
         android:text="开始"
-        android:textColor="@color/write"
+        android:textColor="@color/white"
         android:background="@drawable/start_sports_selector"/>
 
 
